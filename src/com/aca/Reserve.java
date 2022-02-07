@@ -7,13 +7,17 @@ public class Reserve {
     private static int cups = 50;
     private static int money = 0;
 
-    public static int getWater() { return water; }
+    public static int getWater() {
+        return water;
+    }
 
     public static void setWater(int water) {
         Reserve.water = water;
     }
 
-    public static int getMilk() { return milk; }
+    public static int getMilk() {
+        return milk;
+    }
 
     public static void setMilk(int milk) {
         Reserve.milk = milk;
